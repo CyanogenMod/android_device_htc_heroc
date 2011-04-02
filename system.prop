@@ -26,7 +26,7 @@ persist.sys.purgeable_assets = 1
 
 # The OpenGL ES API level that is natively supported by this device.
 # This is a 16.16 fixed point number
-ro.opengles.version = 65537
+ro.opengles.version = 65536
 
 # Voicemail Number
 ro.cdma.voicemail.number = mine

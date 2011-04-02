@@ -26,7 +26,6 @@ unzip -j -o ../../../${DEVICE}_update.zip -d ../../../vendor/htc/$DEVICE/proprie
 	system/etc/AudioPreProcess.csv \
 	system/etc/firmware/brf6350.bin \
 	system/etc/wifi/Fw1251r1c.bin \
-	system/lib/egl/libGLES_qcom.so \
 	system/lib/libhardware_legacy.so \
 	system/lib/libaudioeq.so \
 	system/lib/libcamera.so \
