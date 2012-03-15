@@ -17,17 +17,18 @@ wifi.supplicant_scan_interval = 45
 ro.sf.lcd_density = 160
 
 # Performance tweaks
-dalvik.vm.execution-mode = int:fast
-dalvik.vm.heapsize = 32m
-dalvik.vm.checkjni = false
+dalvik.vm.heapsize = 24m
 ro.compcache.default = 0
-persist.sys.use_dithering = 0
+persist.sys.scrollingcache = 2
+persist.sys.use_dithering = 1
 persist.sys.purgeable_assets = 1
+
+# Disable ICS rotation animation, it's too slow
+persist.sys.rotationanimation = false
 
 # The OpenGL ES API level that is natively supported by this device.
 # This is a 16.16 fixed point number
-ro.opengles.version = 65537
+ro.opengles.version = 65536
 
 # Voicemail Number
 ro.cdma.voicemail.number = mine
-
